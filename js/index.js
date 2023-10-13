@@ -9,6 +9,7 @@ logout()
  * 统计数据获取
  *  1. 函数抽取
  *  2. 调用抽取的函数，请求头中携带Token
+ * 
  * */
 async function getDashBoard() {
   const { data } = await axios({
